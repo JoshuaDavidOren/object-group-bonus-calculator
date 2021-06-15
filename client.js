@@ -31,13 +31,26 @@ const employees = [
   }
 ];
 
-// YOU SHOULD NOT NEED TO CHANGE ANYTHING ABOVE THIS POINT
 
-// Take small steps! Don't write a for loop and two functions that do all of the calculations right away.
-// This problem is massive! Break the problem down. Use the debugger.
-// What is the fewest lines of code I can write and test to get just a little closer?
 
-// This is not a race. Everyone on your team should understand what is happening.
-// Ask questions when you don't.
+function loopFun(employees) {
+  for (i = 0; i < employees.length; i++) {
+    console.log(newObject(employees[i].name, employees[i].annualSalary, employees[i].reviewRating));
 
-console.log( employees );
+  }
+}
+
+console.log(employees);
+
+loopFun(employees)
+
+function newObject(eachPerson, anSalery, revRating) {
+  console.log('in new object', eachPerson);
+if (revRating === 1 || 2  let percentage = 0;)
+else if revRating === 3 let percentage = .04;)
+  const thing = {
+    name: eachPerson,
+    bonus: anSalery / 1 + anSalery * percentage
+  }
+  return thing
+}
